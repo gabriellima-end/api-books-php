@@ -1,0 +1,80 @@
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #252525;
+    color: white;
+    font-family: "Jersey 15", sans-serif;
+    font-size: 20px;
+}
+
+.title-content{
+
+    display: flex;
+    justify-content: center;
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 20px;
+    
+}
+
+
+
+.books{
+    background-color: #383838;
+    width: fit-content;
+    height: min-content;
+    padding: 10px;
+    border: 10px solid #383838;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all .3s;
+    
+    
+}
+
+.books:hover{
+    border: 20px solid #383838;
+    border-color: #383838; 
+}
+
+/*
+ESSE CÓDIGO ALTERA A COR DA BORDA QUANDO CLICADA, CASO QUEIRA USAR DESCOMENTE O JS E AQUI TAMBÉM.
+.books.clicked{
+    border: 1px solid #929292;
+
+} */
+
+.btn-env{
+    width: fit-content;
+    height: min-content;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all .4s;
+
+}
+
+.btn-env:hover{
+    background-color: #929292;
+    
+    
+}
+
+
+
